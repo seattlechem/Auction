@@ -56,7 +56,7 @@ namespace AuctionApp.Controllers
                 return RedirectToAction("Index", "Home");
             }
            
-            return View("index");
+            return View("Index");
         }
 
         [HttpPost("login")]
@@ -85,7 +85,7 @@ namespace AuctionApp.Controllers
                 }
             }
            
-            return View("index");
+            return View("Index");
         }
 
 
